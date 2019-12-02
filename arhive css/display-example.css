@@ -1,0 +1,38 @@
+.inner {
+    position: relative;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    min-width: 100px;
+    min-height: 100px;
+    text-align: justify;
+    background: purple;
+    /*opacity: .7;*/
+    z-index: 0;
+}
+
+.div-2 {
+    position: absolute;
+    left: 100px;
+    background: blue;
+}
+
+.div-3 {
+    background: green;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+}
+
+.lorem .div-1 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+}
+
+.lorem .div-3 {
+    position: -webkit-sticky;
+    position: relative;
+    top: 0;
+}

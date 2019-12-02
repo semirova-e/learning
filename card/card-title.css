@@ -1,0 +1,52 @@
+.card {
+    width: 350px;
+    height: 500px;
+    vertical-align: middle;
+    margin: auto;
+    box-shadow: 6px 6px 5px 3px rgb(165, 143, 143);
+    /*outline: rgb(172, 168, 168) solid 1px;*/
+    border: 1px solid rgb(172, 168, 168);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.card>.img {
+    height: 250px;
+    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzUwIiBoZWlnaHQ9IjI1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB4PSIyIiB5PSIyIiB3aWR0aD0iMzQ2IiBoZWlnaHQ9IjI0NiIgc3R5bGU9ImZpbGw6I2RlZGVkZTtzdHJva2U6I2ZmZmZmZjtzdHJva2Utd2lkdGg6MiIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LXNpemU9IjE4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBhbGlnbm1lbnQtYmFzZWxpbmU9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSwgc2Fucy1zZXJpZiIgZmlsbD0iIzAwMDAwMCI+dGVzdDwvdGV4dD48L3N2Zz4=");
+    background-size: contain;
+    border-radius: 5px 5px 0 0;
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card>.text {
+    padding: 20px;
+}
+
+p {
+    color: gray;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    font-size: 17px;
+}
+
+button:hover {
+    color: rgb(114, 49, 114);
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+.subtitle {
+    margin-top: 5px;
+}

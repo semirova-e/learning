@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'RobotoCondensed';
+    src: url('fonts/RobotoCondensed-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+}
+
+.paragraf1 {
+    font-family: RobotoCondensed;
+}
+
+.paragraf2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 20px;
+    line-height: 32px;
+    text-indent: 32px;
+    text-align: justify;
+}

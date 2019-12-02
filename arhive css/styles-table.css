@@ -1,0 +1,25 @@
+table {
+    width: 700px;
+    margin: auto;
+    border: 1px solid grey;
+}
+
+td {
+    color: darkgrey;
+    text-align: right;
+    border: 1px solid grey;
+}
+
+th {
+    vertical-align: middle;
+    border: 1px solid grey;
+}
+
+tr:nth-child(even) {
+    background: grey;
+    border: 1px solid grey;
+}
+
+.second {
+    width: 200px;
+}

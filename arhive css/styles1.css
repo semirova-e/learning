@@ -1,0 +1,21 @@
+.first span {
+    color: crimson;
+}
+
+input[type="checkbox"] {
+    color: darkblue;
+    font-weight: bold;
+}
+
+#second {
+    color: darkorange;
+}
+
+.heading {
+    font-weight: bold;
+    color: darksalmon;
+}
+
+* {
+    text-decoration: underline;
+}
